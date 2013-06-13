@@ -1,0 +1,59 @@
+html, body, ul, ol, li, form,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+input, textarea, select, button {
+  font-family: helvetica, arial;
+  font-size: 110%;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+button {
+  width: auto;
+  overflow: visible;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+
+form {
+  width: 80%;
+  margin: 20px auto;
+}
+
+
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+  text-align: center;
+}
+
+#errors {
+  color: red;
+}
